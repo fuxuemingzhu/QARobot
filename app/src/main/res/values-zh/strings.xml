@@ -5,4 +5,5 @@
     <string name="tb_munion_tip_download_prefix">正在下载:</string>
     <string name="umeng_common_icon">icon</string>
     <string name="input_help">请输入您的问题...</string>
+    <string name="button_send">发送</string>
 </resources>

@@ -37,7 +37,7 @@ public class RobotModel extends AbsModel {
         map.put("dtype", "");
         map.put("loc", "");
         map.put("userid", "");
-        map.put("key", "bad2c32b89fa6b07a0bb460e167f6556");
+        map.put("key", "YOUR_KEY");
         RequestManager.getInstance().post(API.URL.ROBOT_URL, map, callback);
     }
 
