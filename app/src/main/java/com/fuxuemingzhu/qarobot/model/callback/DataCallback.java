@@ -31,8 +31,8 @@ public abstract class DataCallback extends LinkCallback {
 
         com.alibaba.fastjson.JSONObject jsonObject;
         int status = 0;
-        com.alibaba.fastjson.JSONObject result = null;
-        Answer answer = null;
+        com.alibaba.fastjson.JSONObject result;
+        Answer answer;
         try {
             jsonObject = JSON.parseObject(response);
             status = jsonObject.getIntValue(API.KEY.STATUS);
@@ -42,6 +42,12 @@ public abstract class DataCallback extends LinkCallback {
                 JUtils.Log("result", result.toJSONString());
                 JUtils.Log("success", "init");
                 answer = JSON.parseObject(result.toJSONString(), Answer.class);
+                success(answer);
+            } else if (status == 211200) {
+                error("网络错误");
+            } else {
+                answer = new Answer(status, "小A不能理解你在说什么..");
+                success(answer);
             }
         } catch (Exception e) {
             JUtils.Log(e.getLocalizedMessage());
@@ -49,11 +55,6 @@ public abstract class DataCallback extends LinkCallback {
             return;
         }
         result("jsonObject", jsonObject.toJSONString());
-        if (status == API.CODE.SUCCEED) {
-            success(answer);
-        } else {
-            error(jsonObject.toJSONString());
-        }
         super.onSuccess(response);
     }
 

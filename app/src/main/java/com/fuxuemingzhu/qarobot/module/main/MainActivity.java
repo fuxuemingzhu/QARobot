@@ -67,6 +67,7 @@ public class MainActivity extends BeamBaseActivity<MainPresenter> {
 
         btn_send.setOnClickListener(view -> {
             robotFragment.getPresenter().setMsg(met_content.getText().toString());
+            met_content.setText("");
         });
 
         UmengUpdateAgent.update(this);
@@ -80,6 +81,7 @@ public class MainActivity extends BeamBaseActivity<MainPresenter> {
         fragmentTransaction.replace(R.id.rl_main, fragment);
         fragmentTransaction.commit();
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
