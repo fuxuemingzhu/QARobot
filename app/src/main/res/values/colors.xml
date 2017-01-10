@@ -3,4 +3,143 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="gray">#333333</color>
+    <color name="black">#000000</color>
+    <color name="white">#fafafa</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="half_transparent">#5539D3AD</color>
+    <color name="dialog_btn_seg_line">#44000000</color>
+    <color name="dark_blue">#165EA4</color>
+    <color name="text_gray">#88000000</color>
+    <color name="common_text_color">#3F4244</color>
+    <color name="main_bg">#F2F1ED</color>
+    <color name="courseNow">#39D3AD</color>
+    <color name="courseNot">#F2F1ED</color>
+    <color name="shopGreen">#31CFDE</color>
+    <color name="pink_register_girl">#CC99CC</color>
+    <color name="blue_register_boy">#0099FF</color>
+    <color name="blue_campus_date">#6699FF</color>
+    <color name="blue_wave">#94aad6</color>
+    <color name="login_press">#15bcad</color>
+    <color name="login_normal">#008a7e</color>
+    <color name="login_green">#4fc4f6</color>
+    <color name="event_content">#696969</color>
+    <color name="popupbackground">#ee000000</color>
+    <color name="week_nonchecked">#b4b4b4</color>
+    <color name="week_checked">#282828</color>
+    <color name="main_red">#fffa7886</color>
+    <color name="round_red">#cc324b</color>
+    <color name="main_purple">#ffaf92d7</color>
+    <color name="main_blue">#ff34ced9</color>
+    <color name="main_yellow">#fffcdc36</color>
+    <color name="main_orange">#fffda84c</color>
+    <color name="main_red_selected">#ffde6270</color>
+    <color name="main_purple_selected">#ff9b7dc3</color>
+    <color name="main_blue_selected">#ff37b8c1</color>
+    <color name="main_yellow_selected">#fff7c100</color>
+    <color name="main_orange_selected">#aaee8200</color>
+    <color name="TextColorWhite">#ffffffff</color>
+    <color name="BgColor">#ffd1dce9</color>
+    <color name="app_background">#fff2f1ed</color>
+    <color name="textcolor_33">#ff333333</color>
+    <color name="textcolor_4c">#ff4c4c4c</color>
+    <color name="textcolor_66">#ff666666</color>
+    <color name="textcolor_80">#ff808080</color>
+    <color name="textcolor_b2">#ffb2b2b2</color>
+    <color name="black_alpha_80">#cc000000</color>
+    <color name="black_alpha_50">#80000000</color>
+    <color name="black_alpha_12">#1f000000</color>
+    <color name="black_alpha_07">#12000000</color>
+    <color name="black_alpha_03">#07000000</color>
+    <color name="white_alpha_40">#68ffffff</color>
+    <color name="white_alpha_50">#80ffffff</color>
+    <color name="white_alpha_60">#9affffff</color>
+    <color name="white_alpha_75">#c0ffffff</color>
+    <color name="white_alpha_80">#cdffffff</color>
+    <color name="white_alpha_90">#e5ffffff</color>
+    <color name="background">#ffe6e9ec</color>
+    <color name="background_f5f4f1">#fff5f4f1</color>
+    <color name="gray_lighter">#ffeeeeee</color>
+    <color name="gray_light">#ffcdcdcd</color>
+    <color name="gray_dark">#ff666666</color>
+    <color name="gray_darker">#ff333333</color>
+    <color name="gray_light_dark">#ff909090</color>
+    <color name="course_detail_content">#ff787878</color>
+    <color name="course_detail_name">#ff37b8c1</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="half_black">#808080</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="primary">#5677fc</color>
+    <color name="primary_dark">#394264</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#509688</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <!--<color name="primary">#4CAF50</color>-->
+    <!--<color name="primary_dark">#388E3C</color>-->
+    <!--<color name="primary_light">#C8E6C9</color>-->
+    <!--<color name="accent">#536DFE</color>-->
+    <!--<color name="primary_text">#212121</color>-->
+    <!--<color name="secondary_text">#727272</color>-->
+    <!--<color name="icons">#FFFFFF</color>-->
+    <!--<color name="divider">#B6B6B6</color>-->
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+    <integer-array name="pocket_bar_colors">
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_4</item>
+        <item>@color/pocket_color_4</item>
+        <item>@color/pocket_color_4</item>
+        <item>@color/pocket_color_4</item>
+    </integer-array>
+
+    <integer-array name="pocket_background_colors">
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_4</item>
+    </integer-array>
+
+    <color name="pocket_color_1">#85edb9</color>
+    <color name="pocket_color_2">#34bdb7</color>
+    <color name="pocket_color_3">#ee4458</color>
+    <color name="pocket_color_4">#fcb74d</color>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+
+    <color name="holo_blue_dark">#0099cc</color>
+    <color name="holo_yellow_dark">#ff8800</color>
+    <color name="holo_green_dark">#669900</color>
+    <color name="holo_purple_dark">#9933cc</color>
+    <color name="holo_red_dark">#cc0000</color>
+
+    <color name="orange">#25A55F</color>
+    <color name="orange_dark">#25A55F</color>
+    <color name="orange_accent">#9BDF46</color>
+    <color name="whiteTrans80">#AFFF</color>
 </resources>

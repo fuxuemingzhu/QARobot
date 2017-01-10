@@ -12,9 +12,14 @@ buildscript {
     }
 }
 
+plugins {
+    id "me.tatarka.retrolambda" version "3.2.0"
+}
+
 allprojects {
     repositories {
         jcenter()
+        maven { url "https://jitpack.io" }
     }
 }
 

@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">QARobot</string>
+    <string name="app_name">问答机器人</string>
+    <string name="input_help">请输入您的问题...</string>
+    <string name="button_send">发送</string>
 </resources>
