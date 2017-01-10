@@ -6,6 +6,8 @@ MVP模式 + Material Design。
 
 ![icon][1]
 
+本项目开发详解的博客：[http://blog.csdn.net/fuxuemingzhu/article/details/54315899][11]
+
 ## 应用市场
 
 下载地址：
@@ -59,3 +61,4 @@ https://www.juhe.cn/docs/api/id/112
   [8]: http://blog.csdn.net/fuxuemingzhu/article/details/50911245
   [9]: http://blog.csdn.net/fuxuemingzhu/article/details/50933767
   [10]: https://github.com/fuxuemingzhu/QARobot
+  [11]: http://blog.csdn.net/fuxuemingzhu/article/details/54315899
